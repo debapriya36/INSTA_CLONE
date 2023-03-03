@@ -152,6 +152,3 @@ router.put('/commnet',requireLogin,(req,res)=>{
 
 module.exports = router;
 
-
-// king@bhai.com
-// Kingbhai@1
