@@ -1,12 +1,11 @@
 import React from 'react'
 import './PostDetail.css';
-//import { useNavigate } from 'react-router-dom';
 
 const PostDetail = ({item , toggleDetails}) => {
 
- // const navigate = useNavigate();
+ 
 
- var picLink = "https://cdn.iconscout.com/icon/free/png-256/profile-2377591-1982938.png?f=avif&w=128";
+ let picLink = "https://cdn.iconscout.com/icon/free/png-256/profile-2377591-1982938.png?f=avif&w=128";
 
 const deletemyPost=(id)=>{
   const url="/deletepost/"+id;
@@ -18,7 +17,6 @@ const deletemyPost=(id)=>{
    }).then((res)=>res.json())
    .then((result)=>{
      toggleDetails();
-   //  navigate('/profile');
      window.location.reload();
      console.log(result)
    })

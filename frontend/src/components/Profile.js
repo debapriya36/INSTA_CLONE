@@ -11,7 +11,7 @@ const Profile = () => {
   const [user, setUser] = useState("")
   const [changePic, setChangePic] = useState(false)
 
-  var picLink = "https://cdn.iconscout.com/icon/free/png-256/profile-2377591-1982938.png?f=avif&w=128";
+  let picLink = "https://cdn.iconscout.com/icon/free/png-256/profile-2377591-1982938.png?f=avif&w=128";
 
 
   const toggleDetails = (posts) => {

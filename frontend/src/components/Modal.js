@@ -51,6 +51,3 @@ const Modal = ({setModalOpen}) => {
 
 export default Modal
 
-
-// Big@0123
-// bigfansir@gmail.com
