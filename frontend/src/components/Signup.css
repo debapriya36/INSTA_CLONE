@@ -18,6 +18,7 @@
     width: 200px;
     object-fit: contain;
     padding: 10px 0px;
+    scale: 1.4;
 }
 
 .loginPara{

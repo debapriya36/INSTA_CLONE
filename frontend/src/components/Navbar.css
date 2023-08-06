@@ -10,7 +10,9 @@ img{
     box-shadow: 1px 5px 5px #e0dcdc;
  
 }
-
+#ig-logo{
+    scale: 1.1;
+}
 ul{
     display: flex;
     align-items: baseline;
