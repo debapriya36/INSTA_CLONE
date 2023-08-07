@@ -1,4 +1,4 @@
-# Instagram Clone - MERN Stack Project
+# Igverse : Instagram Clone - MERN Stack Project
 
 
 https://github.com/debapriya36/INSTA_CLONE/assets/77222446/bcce8e13-a27d-476b-a46d-c49272bf3827
